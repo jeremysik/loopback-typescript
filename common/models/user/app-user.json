@@ -1,0 +1,23 @@
+{
+  "name": "AppUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUser": true
+  },
+  "properties": {
+    "first": {
+      "type": "string"
+    },
+    "last": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

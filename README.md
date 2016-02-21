@@ -1,2 +1,2 @@
-# loopback-typescript
-Loopback typescript seed
+# holifolio-web
+Holifolio web application. Includes frontend and API.
