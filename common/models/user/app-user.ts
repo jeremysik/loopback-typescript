@@ -1,10 +1,7 @@
-export module common.models.user {
-    function appUser(AppUser:any) {
+module common.models.user {
+    export function appUser(AppUser:any) {
 
         AppUser.greet = function (msg:string, cb:Function) {
-
-            console.log(AppUser);
-
             cb(null, 'Greetings... ' + msg);
         };
 
@@ -18,3 +15,5 @@ export module common.models.user {
 
     }
 }
+
+export = common.models.user.appUser;
