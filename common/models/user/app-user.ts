@@ -1,4 +1,4 @@
-function appUserMixin(AppUser:any) {
+function appUser(AppUser:any) {
 
     AppUser.greet = function (msg:string, cb:Function) {
 
@@ -17,4 +17,4 @@ function appUserMixin(AppUser:any) {
 
 }
 
-export = appUserMixin;
+export = appUser;
