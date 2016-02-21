@@ -1,5 +1,5 @@
 {
-  "name": "holifolio",
+  "name": "loopback-typescript",
   "version": "0.0.0",
   "main": "server/server.js",
   "scripts": {
